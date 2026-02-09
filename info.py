@@ -8,8 +8,8 @@ API_HASH = environ.get('API_HASH', '25d88301e886b82826a525b7cf52e090')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8543762780:AAHbhPKcyB_h-7LZFmUCYolkvckSLaCkflQ')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
+ADMINS = [int(i) for i in environ.get('ADMINS', '8525952693').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003559364122").split()]
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'CantarellaBots')
 BOT_USERNAME = environ.get("BOT_USERNAME", 'CantarellaBots')
 
