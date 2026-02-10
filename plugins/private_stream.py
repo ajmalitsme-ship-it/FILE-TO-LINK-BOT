@@ -49,7 +49,7 @@ async def private_receive_handler(c: Client, m: Message):
         hash_str = get_hash(forwarded)
         stream = f"{URL}watch/{forwarded.id}/RexBots_{int(time.time())}.mkv?hash={hash_str}"
         download = f"{URL}{forwarded.id}?hash={hash_str}"
-        file_link = f"https://t.me/{BOT_USERNAME}?start=file_{forwarded.id}"
+        file_link = f"https://t.me/BhFile_to_link_bot?start=file_{forwarded.id}"
         share_link = f"https://t.me/share/url?url={urllib.parse.quote(file_link)}"
 
         # ✅ Save file in MongoDB
