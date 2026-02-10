@@ -24,8 +24,10 @@ async def start(client, message):
     mention = message.from_user.mention
     me2 = (await client.get_me()).mention
     if FSUB:
+    if message.command:
     if not message.text:
-    return
+        return
+
 
 
     if not await db.is_user_exist(user_id):
