@@ -2,7 +2,7 @@ from os import environ, getenv
 from Script import script
 
 # 🚀 __Bot Configuration__
-SESSION = environ.get('SESSION', 'RexBots')  # Session name
+SESSION = environ.get('SESSION', 'filetolink')  # Session name
 API_ID = int(environ.get('API_ID', '27806628'))
 API_HASH = environ.get('API_HASH', '25d88301e886b82826a525b7cf52e090')
 BOT_TOKEN = environ.get('BOT_TOKEN', '8543762780:AAHbhPKcyB_h-7LZFmUCYolkvckSLaCkflQ')
@@ -10,8 +10,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '8543762780:AAHbhPKcyB_h-7LZFmUCYolkvckSLaC
 # 👑 __Owner & Admins__
 ADMINS = [int(i) for i in environ.get('ADMINS', '8525952693').split()]
 AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003559364122").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'CantarellaBots')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'CantarellaBots')
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'funnytamilan ')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'bhfile_to_linkbot')
 
 # 🔗 __Channel & Support Links__
 CHANNEL = environ.get('CHANNEL', 'https://t.me/cantarellabots')
@@ -33,7 +33,7 @@ ENABLE_LIMIT = environ.get("ENABLE_LIMIT", True)
 BATCH_VERIFY = False
 IS_SHORTLINK = False
 MAINTENANCE_MODE = environ.get("MAINTENANCE_MODE", False)
-PROTECT_CONTENT = environ.get('PROTECT_CONTENT', False)
+PROTECT_CONTENT = environ.get('PROTECT_CONTENT', True)
 PUBLIC_FILE_STORE = environ.get('PUBLIC_FILE_STORE', True)
 BATCH_PROTECT_CONTENT = environ.get('BATCH_PROTECT_CONTENT', False)
 
